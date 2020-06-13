@@ -100,7 +100,7 @@ ul {
 
 .back_top {
   background: #fff;
-  border: 2px solid #314584;
+  border: 2px solid #111741;
   text-align: center;
   position: fixed;
   bottom: 20px;
@@ -120,16 +120,16 @@ ul {
     line-height: 40px;
     font-size: 32px;
     display: block;
-    color: #314584;
+    color: #111741;
   }
 
   .back_top:hover {
-    background: #e63f4b;
-    border: 2px solid #e63f4b;
+    background: #eeaa35;
+    border: 2px solid #eeaa35;
   }
 
     .back_top:hover i {
-      color: #fff;
+      color: #111741;
     }
 
 .modal-close {
@@ -184,7 +184,7 @@ ul {
 
     .section_title h2 span {
       position: relative;
-      color: #314584;
+      color: #111741;
       font-size: 40px;
       font-weight: 600;
       z-index: 2;
@@ -309,22 +309,22 @@ ul {
 
 .white-btn {
   background: #fff;
-  color: #314584;
+  color: #111741;
 }
 
   .white-btn:hover {
-    background: #e63f4b;
-    color: #fff;
+    background: #eeaa35;
+    color: #111741;
   }
 
 .theme-btn {
-  background: #314584;
+  background: #111741;
   color: #fff;
 }
 
   .theme-btn:hover {
-    background: #e63f4b;
-    color: #fff;
+    background: #eeaa35;
+    color: #111741;
   }
 
 .border-btn {
@@ -334,9 +334,9 @@ ul {
 }
 
   .border-btn:hover {
-    border: 1px solid #e63f4b;
-    color: #fff;
-    background: #e63f4b;
+    border: 1px solid #eeaa35;
+    color: #111741;
+    background: #eeaa35;
   }
 /*==========================
         3.PRELOADER
@@ -366,7 +366,7 @@ ul {
     width: 1rem;
     height: 1rem;
     border-radius: 100%;
-    background-color: #e63f4b;
+    background-color: #eeaa35;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
@@ -423,13 +423,13 @@ ul {
 }
 
 .sticky-header .header_btn .white-btn {
-  background: #314584;
+  background: #111741;
   color: #fff;
 }
 
   .sticky-header .header_btn .white-btn:hover {
-    background: #e63f4b;
-    color: #fff;
+    background: #eeaa35;
+    color: #111741;
   }
 
 .custom-nav {
@@ -487,11 +487,11 @@ ul {
   }
 
   .custom-nav.sticky-header .navbar-nav > li > a {
-    color: #314584;
+    color: #111741;
   }
 
     .custom-nav.sticky-header .navbar-nav > li > a::before {
-      background-color: #314584;
+      background-color: #111741;
     }
 
 .dropdown-menu {
@@ -515,7 +515,7 @@ ul {
 }
 
 .custom-nav .dropdown-menu .dropdown-item:focus, .custom-nav .dropdown-menu .dropdown-item:hover {
-  background-color: #314584;
+  background-color: #111741;
   color: #fff;
 }
 
@@ -747,7 +747,7 @@ ul {
 .home-bg {
   margin: 0 0 0;
   padding: 9rem 0 0rem 0;
-  background: url(../images/slider-img/home-bg.jpg);
+  background: url(../images/slider-img/herobg2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -836,7 +836,7 @@ ul {
 
 .about-content h4 {
   font-size: 32px;
-  color: #314584;
+  color: #111741;
   line-height: 35px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -908,7 +908,7 @@ ul {
     width: 4.75rem;
     height: 4.75rem;
     border-radius: 50%;
-    background: #314584;
+    background: #111741;
     animation: pulse-border 1500ms ease-out infinite;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -925,7 +925,7 @@ ul {
     width: 4.375rem;
     height: 4.375rem;
     border-radius: 50%;
-    background: #314584;
+    background: #111741;
     transition: all 200ms;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -1098,7 +1098,7 @@ ul {
     line-height: 50px;
     align-items: center;
     justify-content: flex-start;
-    color: #314584;
+    color: #111741;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
@@ -1111,7 +1111,7 @@ ul {
 .app-feature-block h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #314584;
+  color: #111741;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
@@ -1174,7 +1174,7 @@ ul {
     border-radius: 50px;
     font-size: 26px;
     background: #eee;
-    color: #314584;
+    color: #111741;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -1182,7 +1182,7 @@ ul {
 
 .steps-text h4 {
   margin: 13px 0 10px;
-  color: #314584;
+  color: #111741;
   font-size: 20px;
   font-weight: 400;
 }
@@ -1192,12 +1192,12 @@ ul {
 }
 
 .work-steps-detail:hover .steps-icon i {
-  background: #e63f4b;
-  color: #fff;
+  background: #eeaa35;
+  color: #111741;
 }
 
 .work-steps-detail:hover h4 {
-  color: #e63f4b;
+  color: #eeaa35;
 }
 
 /*==========================
@@ -1240,7 +1240,7 @@ ul {
 
 .counter-ico {
   background: #fff;
-  color: #314584;
+  color: #111741;
   font-size: 40px;
   margin-bottom: 10px;
   height: 80px;
@@ -1268,7 +1268,7 @@ ul {
 }
 
   .tabs-custom .nav-link {
-    border: 2px solid #314584 !important;
+    border: 2px solid #111741 !important;
     border-radius: 0;
     margin-right: -1px;
     padding: 0 45px;
@@ -1276,13 +1276,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #314584;
+    color: #111741;
     font-size: 20px;
     font-weight: 400;
   }
 
     .tabs-custom .nav-link.active {
-      background: #314584;
+      background: #111741;
       color: #fff;
     }
 
@@ -1311,7 +1311,7 @@ ul {
     font-size: 60px;
     justify-content: center;
     align-items: center;
-    color: #314584;
+    color: #111741;
     position: relative;
   }
 
@@ -1383,7 +1383,7 @@ ul {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     transform: translateY(-20px);
-    border: 1px solid #e63f4b;
+    border: 1px solid #eeaa35;
   }
 
   .price-box .p-box-inner .price-title {
@@ -1391,12 +1391,12 @@ ul {
     font-size: 32px;
     font-weight: 500;
     line-height: 1.3em;
-    color: #314584;
+    color: #111741;
     margin-top: 15px;
   }
 
   .price-box .p-box-inner:hover .price-title {
-    color: #e63f4b;
+    color: #59b88d;
   }
 
   .price-box .p-box-inner h2 {
@@ -1404,12 +1404,12 @@ ul {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.3em;
-    color: #314584;
+    color: #111741;
     margin-bottom: 20px;
   }
 
   .price-box .p-box-inner:hover h2 {
-    color: #e63f4b;
+    color: #eeaa35;
   }
 
   .price-box .p-box-inner h2 em {
@@ -1501,16 +1501,16 @@ ul {
     }
 
   .question-card .btn-link.collapsed {
-    color: #314584 !important;
+    color: #111741 !important;
   }
 
   .question-card.active, .question-card.active .btn-link {
-    background: #e63f4b;
+    background: #eeaa35;
     color: #fff;
   }
 
   .question-card .btn-link:hover {
-    background: #e63f4b;
+    background: #eeaa35;
     color: #fff !important;
   }
 
@@ -1635,7 +1635,7 @@ ul {
 
   .client-Testimonials .client-slider .owl-nav .owl-prev,
   .client-Testimonials .client-slider .owl-nav .owl-next {
-    color: #314584;
+    color: #111741;
     font-size: 32px;
     position: absolute;
     top: 52%;
@@ -1665,7 +1665,7 @@ ul {
   .client-Testimonials .client-slider .owl-next:hover,
   .client-Testimonials .client-slider .owl-prev:hover {
     color: #fff;
-    background: #e63f4b;
+    background: #eeaa35;
   }
 
   .client-Testimonials .doughnut-shape1 {
@@ -1771,7 +1771,7 @@ ul {
     width: 100%;
     height: 50px;
     border-radius: 3px;
-    color: #314584;
+    color: #111741;
     margin-top: 30px;
     font-weight: 400;
     border: none;
@@ -1785,7 +1785,7 @@ ul {
   }
 
   .contact_form .form-control:focus, .login_form .form-control:focus {
-    border-color: #314584;
+    border-color: #111741;
   }
 
 .contact-txt a {
@@ -1800,16 +1800,16 @@ ul {
 }
 
 ::placeholder {
-  color: #314584 !important;
+  color: #111741 !important;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #314584 !important;
+  color: #111741 !important;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: #314584 !important;
+  color: #111741 !important;
 }
 /*13.1 CONTACT AREA*/
 .contact-info {
@@ -1830,12 +1830,12 @@ ul {
       font-size: 3.33333rem;
       display: block;
       line-height: 2rem;
-      color: #314584;
+      color: #111741;
     }
 
   .contact-info-box .contents h6 {
     font-weight: 500;
-    color: #314584;
+    color: #111741;
     margin: 0 0 5px;
   }
 
@@ -1843,7 +1843,7 @@ ul {
 
 .getin-touch h4 {
   font-size: 32px;
-  color: #314584;
+  color: #111741;
   line-height: 35px;
   margin-bottom: 0;
   font-weight: 600;
@@ -1859,7 +1859,7 @@ ul {
   position: relative;
   overflow: hidden;
   padding: 50px 0;
-  background: #314584;
+  background: #111741;
   z-index: 2;
 }
 
@@ -1921,7 +1921,7 @@ ul {
     }
 
       .footer .footer_menu_list li a:hover {
-        color: #e63f4b;
+        color: #eeaa35;
       }
 
 .copyrights {
@@ -1970,14 +1970,14 @@ ul {
   font-size: 14px;
   line-height: 30px;
   padding: 5px 20px 5px;
-  color: #314584;
+  color: #111741;
   border-radius: 30px;
   font-weight: 400;
   background: #e8e8e8;
 }
 
   .filters li a.active {
-    background: #e63f4b;
+    background: #eeaa35;
     color: #fff;
   }
 
@@ -1986,7 +1986,7 @@ ul {
   bottom: -50px;
   left: 0;
   width: 100%;
-  background: #314584;
+  background: #111741;
   visibility: hidden;
   color: #fff;
   opacity: 0;
@@ -2014,7 +2014,7 @@ ul {
 }
 
   .portfolio-icon a {
-    color: #e63f4b;
+    color: #eeaa35;
   }
 
     .portfolio-icon a:hover {
@@ -2022,7 +2022,7 @@ ul {
     }
 
   .portfolio-icon:hover {
-    background: #e63f4b;
+    background: #eeaa35;
   }
 
 .portfolio-box:hover .img-overlay {
@@ -2067,7 +2067,7 @@ ul {
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background: #e63f4b;
+        background: #eeaa35;
         color: #fff;
         display: flex;
         -webkit-box-pack: center;
@@ -2078,14 +2078,14 @@ ul {
       }
 
   .blog--card .card-body h5 a {
-    color: #314584;
+    color: #111741;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
   }
 
     .blog--card .card-body h5 a:hover {
-      color: #e63f4b;
+      color: #eeaa35;
     }
 
   .blog--card .card-body .post-meta {
@@ -2104,14 +2104,14 @@ ul {
     }
 
       .blog--card .card-body .post-meta li a {
-        color: #314584;
+        color: #111741;
         -webkit-transition: all .3s ease;
         -o-transition: all .3s ease;
         transition: all .3s ease;
       }
 
         .blog--card .card-body .post-meta li a:hover {
-          color: #e63f4b;
+          color: #eeaa35;
         }
 
 .sidebar .search-widget {
@@ -2169,7 +2169,7 @@ ul {
 }
 
   .sidebar .category-widget ul li a:hover {
-    color: #e63f4b;
+    color: #eeaa35;
   }
 
 .sidebar-post .post-single {
@@ -2186,7 +2186,7 @@ ul {
     }
 
       .sidebar-post .post-single P span a {
-        color: #314584;
+        color: #111741;
       }
 
   .sidebar-post .post-single .post-title {
@@ -2221,8 +2221,8 @@ ul {
 
       .tags-widget ul li a:hover {
         color: #fff;
-        background: #e63f4b;
-        border-color: #e63f4b;
+        background: #eeaa35;
+        border-color: #eeaa35;
       }
 
 /*==========================
@@ -2276,14 +2276,14 @@ ul {
 .form-change-link {
   font-size: 16px;
   font-weight: bolder;
-  color: #314584;
+  color: #111741;
   margin-left: 10px;
 }
 
 .login-links, .forgot-links {
   margin: 20px 0;
   display: flex;
-  color: #314584;
+  color: #111741;
 }
 
 .Home-links {
@@ -2292,7 +2292,7 @@ ul {
 }
 
   .Home-links a {
-    color: #314584;
+    color: #111741;
   }
 /*==========================
         19.RESPONSIVE
@@ -2348,13 +2348,13 @@ ul {
   }
 
   .header_btn .white-btn {
-    background: #314584;
+    background: #111741;
     color: #fff;
   }
 
   .navbar-toggler i {
     font-size: 28px;
-    color: #e63f4b;
+    color: #eeaa35;
   }
 
   .custom-nav {
