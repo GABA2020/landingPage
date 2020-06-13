@@ -12,7 +12,7 @@ $(document).ready(function () {
   /*----TYPED JS-----*/
   (function ($) {
     $(".typed").typed({
-      strings: ["Improve your Business."],
+      strings: ["Excel on Exams", "Work Smarter not Harder", "Save Time and Money"],
       stringsElement: null,
       typeSpeed: 30,
       startDelay: 1200,
