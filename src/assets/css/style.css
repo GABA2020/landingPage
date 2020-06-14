@@ -221,7 +221,7 @@ ul {
 
 .inner-hero-banner {
   background-color: #fff;
-  background-image: url(../images/inner-banner.jpg);
+  background-image: url(../images/slider-img/yellowhero.png);
   width: 100%;
   height: 50vh;
   background-position: center;
@@ -340,9 +340,10 @@ ul {
 }
 
   .border-btn:hover {
-    border: 1px solid #eeaa35;
+    border: 1px solid #59b88d;
     color: #111741;
-    background: #eeaa35;
+    background: #59b88d;
+    font-weight: 500;
   }
 /*==========================
         3.PRELOADER
@@ -973,7 +974,7 @@ ul {
   top: 3%;
   width: 94%;
   height: 94%;
-  background-color: rgba(255, 61, 74, 0.95);
+  background-color: rgba(114, 128, 218, 0.95);
   padding: 20px;
   visibility: hidden;
   opacity: 0;
@@ -1390,7 +1391,7 @@ ul {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     transform: translateY(-20px);
-    border: 1px solid #eeaa35;
+    border: 1px solid #59b88d;
   }
 
   .price-box .p-box-inner .price-title {
@@ -1416,7 +1417,7 @@ ul {
   }
 
   .price-box .p-box-inner:hover h2 {
-    color: #eeaa35;
+    color: #59b88d;
   }
 
   .price-box .p-box-inner h2 em {
@@ -1512,13 +1513,13 @@ ul {
   }
 
   .question-card.active, .question-card.active .btn-link {
-    background: #eeaa35;
-    color: #fff;
+    background: #59b88d;
+    color: #111741;
   }
 
   .question-card .btn-link:hover {
-    background: #eeaa35;
-    color: #fff !important;
+    background: #59b88d;
+    color: #111741 !important;
   }
 
   .question-card.active h4::after {
@@ -1866,7 +1867,7 @@ ul {
   position: relative;
   overflow: hidden;
   padding: 50px 0;
-  background: #111741;
+  background: #eeaa35;
   z-index: 2;
 }
 
@@ -1889,7 +1890,7 @@ ul {
 .ftr-about {
   font-size: 16px;
   width: 80%;
-  color: #cccccc;
+  color: #111741;
   font-weight: 400;
   text-align: center;
   display: table;
@@ -1947,7 +1948,7 @@ ul {
 
 .social-icons {
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
