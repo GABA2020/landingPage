@@ -159,6 +159,11 @@ ul {
   background: none;
   border: none;
 }
+
+.col-md-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /*==========================
         2.HELPER
 ============================*/
@@ -204,13 +209,14 @@ ul {
     }
 
 .section_subtitle {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 30px;
   max-width: 750px;
   padding-top: 0;
   font-weight: 300;
-  color: #999;
+  color: #337859;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 .inner-hero-banner {
@@ -846,6 +852,7 @@ ul {
   font-size: 16px;
   color: #333;
   line-height: 30px;
+  font-weight: 400;
 }
 
 .image-container {
@@ -2354,7 +2361,7 @@ ul {
 
   .navbar-toggler i {
     font-size: 28px;
-    color: #eeaa35;
+    color: #111741;
   }
 
   .custom-nav {
@@ -2509,7 +2516,7 @@ ul {
     font-size: 34px;
   }
 
-  .about-content h4, .about-content .text {
+  .about-content h4 {
     text-align: center;
   }
 
