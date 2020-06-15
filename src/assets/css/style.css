@@ -43,6 +43,9 @@
 /*======================
         1.BASIC
 ========================*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -169,6 +172,12 @@ ul {
 ============================*/
 .form-control {
   padding: 7px 20px;
+}
+
+.empty {
+  /* position: relative; */
+  padding-top: 25px;
+  /* overflow: hidden; */
 }
 
 .section {

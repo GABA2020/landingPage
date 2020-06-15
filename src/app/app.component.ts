@@ -18,18 +18,18 @@ export class AppComponent implements OnInit {
   }
   constructor(private wowService: NgwWowService, private router: Router) {
     this.wowService.init();
-    this.router.events.subscribe((event: Event) => {
-      if (event instanceof NavigationStart) {
-        this.router.events
-          .subscribe((event) => {
-            $.getScript('assets/js/main.js');
-          });
-      }
-      if (event instanceof NavigationEnd) {
-      }
-      if (event instanceof NavigationError) {
-      }
-    });
+    // this.router.events.subscribe((event: Event) => {
+    //   if (event instanceof NavigationStart) {
+    //     this.router.events
+    //       .subscribe((event) => {
+    //         $.getScript('assets/js/main.js');
+    //       });
+    //   }
+    //   if (event instanceof NavigationEnd) {
+    //   }
+    //   if (event instanceof NavigationError) {
+    //   }
+    // });
   }
 
 }
