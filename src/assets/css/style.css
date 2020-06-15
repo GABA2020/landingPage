@@ -335,27 +335,44 @@ ul {
 .white-btn {
   background: #fff;
   color: #111741;
+  font-weight: 500;
 }
 
   .white-btn:hover {
-    background: #eeaa35;
-    color: #111741;
+    background: #111741;
+    color: #fff;
+    font-weight: 500;
   }
+
+.mango-btn {
+  background: #eeaa35;
+  color: #111741;
+  font-weight: 500;
+}
+
+.mango-btn:hover {
+  background: #111741;
+  color: #fff;
+  font-weight: 500;
+}
 
 .theme-btn {
   background: #111741;
   color: #fff;
+  font-weight: 500;
 }
 
   .theme-btn:hover {
     background: #eeaa35;
     color: #111741;
+    font-weight: 500;
   }
 
 .border-btn {
   border: 1px solid #dfdfdf;
   color: #333;
   background: #fff;
+  font-weight: 500;
 }
 
   .border-btn:hover {

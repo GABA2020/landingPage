@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppHeaderComponent } from './app.header.component';
+import { AppHomeHeaderComponent } from './app.homeheader.component';
 import { AppFooterComponent } from './app.footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModuleModule } from './router-module.module';
@@ -36,6 +37,7 @@ import { ActivatedRouteModule } from './activated-route.module';
     LoginComponent,
     RegisterComponent,
     AppHeaderComponent,
+    AppHomeHeaderComponent,
     AppFooterComponent
   ],
   imports: [
@@ -49,7 +51,7 @@ import { ActivatedRouteModule } from './activated-route.module';
    // NgxTypedJsModule
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
-  bootstrap: [AppComponent, AppHeaderComponent, AppFooterComponent]
+  bootstrap: [AppComponent, AppHeaderComponent, AppHomeHeaderComponent, AppFooterComponent]
 })
 export class AppModule {
 }

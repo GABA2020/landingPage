@@ -8,21 +8,20 @@
       </a>
       <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
         <ul class="navbar-nav navbar-center" id="mySidenav">
-          <li routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="nav-item">
             <a href="javascript:void(0);" routerLink="/index" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="javascript:void(0);" [routerLink] = "['index']" fragment="howitworks" class="nav-link">How It Works</a>
+            <a href="javascript:void(0);" [routerLink] = "['/index']" fragment="howitworks" class="nav-link">How It Works</a>
           </li>
           <li class="nav-item">
-            <a href="javascript:void(0);" [routerLink] = "['index']" fragment="pricing" class="nav-link">Pricing</a>
+            <a href="javascript:void(0);" [routerLink] = "['/index']" fragment="pricing" class="nav-link">Pricing</a>
           </li>
-          <li class="nav-item" routerLinkActive="active">
+          <li routerLinkActive="active" class="nav-item">
             <a href="javascript:void(0);" routerLink="/about" class="nav-link">Our Journey</a>
           </li>
           <li class="nav-item">
-            <a href="javascript:void(0);" [routerLink] = "['index']" fragment="faq" class="nav-link">FAQs</a>
+            <a href="javascript:void(0);" [routerLink] = "['/index']" fragment="faq" class="nav-link">FAQs</a>
           </li>
           <!-- <li class="nav-item dropdown" routerLinkActive="active">
             <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
