@@ -1,4 +1,12 @@
-# Tomillo
+# ![favicon](favicon.ico) GABA | Students to Resources
+### Overview
+
+**GABA** is the first verified community for medical students and graduates of medical school. We offer reviews on educational resources, schools, and personalized career development.
+
+Learn more by watching the YouTube video below:
+[![GABA hero image](https://img.youtube.com/vi/YbFtpUooQfs&t/0.jpg)](https://youtu.be/YbFtpUooQfs)
+
+### Project Info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
