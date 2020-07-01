@@ -376,9 +376,9 @@ ul {
 }
 
   .border-btn:hover {
-    border: 1px solid #59b88d;
+    border: 1px solid #eeaa35;
     color: #111741;
-    background: #59b88d;
+    background: #eeaa35;
     font-weight: 500;
   }
 /*==========================
@@ -1367,7 +1367,7 @@ ul {
       content: '';
       height: 100px;
       width: 100px;
-      background-color: #e2ecfe;
+      background-color: rgba(238, 170, 53, 0.25);
       border-radius: 100px;
       position: absolute;
       top: 0;
@@ -1378,12 +1378,20 @@ ul {
       content: '';
       height: 75px;
       width: 75px;
-      background-color: #d4e3fd;
+      background-color: rgba(238, 170, 53, 0.35);
       border-radius: 75px;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
+    }
+
+    .icon-diff .plan-icons:before {
+      background-color: rgba(114, 128, 218, 0.25);
+    }
+    
+    .icon-diff .plan-icons:after {
+      background-color: rgba(114, 128, 218, 0.35);
     }
 
   .price-box .btn {
@@ -1427,7 +1435,7 @@ ul {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     transform: translateY(-20px);
-    border: 1px solid #59b88d;
+    border: 1px solid #eeaa35;
   }
 
   .price-box .p-box-inner .price-title {
@@ -1440,7 +1448,7 @@ ul {
   }
 
   .price-box .p-box-inner:hover .price-title {
-    color: #59b88d;
+    color: #eeaa35;
   }
 
   .price-box .p-box-inner h2 {
@@ -1453,7 +1461,7 @@ ul {
   }
 
   .price-box .p-box-inner:hover h2 {
-    color: #59b88d;
+    color: #eeaa35;
   }
 
   .price-box .p-box-inner h2 em {
@@ -1473,7 +1481,7 @@ ul {
     .price-box .p-box-inner .package-list-data li {
       position: relative;
       color: #404040;
-      padding: 10px 30px;
+      padding: 10px 5px;
       font-size: 16px;
       max-width: 100%;
       width: 100%;
