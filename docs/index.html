@@ -28,6 +28,29 @@
 <body>
   
   <app-root></app-root>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "<YOUR_GOOGLE_API_KEY>",
+        authDomain: "august-water-280101.firebaseapp.com",
+        databaseURL: "https://august-water-280101.firebaseio.com",
+        projectId: "august-water-280101",
+        storageBucket: "august-water-280101.appspot.com",
+        messagingSenderId: "432208837952",
+        appId: "1:432208837952:web:c98e4792581e2b80824ea5",
+        measurementId: "G-WGLPQNE1KT"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'></script>
 <script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="styles.js" type="module"></script><script src="scripts.js" defer></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
 </html>
