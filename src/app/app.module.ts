@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModuleModule } from './router-module.module';
 import { RouterModule } from './router.module';
 import { ActivatedRouteModule } from './activated-route.module';
+import { GtagModule } from 'angular-gtag';
 // import {NgxTypedJsModule} from '../assets/js/ngx-typed-js/src/lib/ngx-typed-js.module';
 
 @NgModule({
@@ -47,6 +48,7 @@ import { ActivatedRouteModule } from './activated-route.module';
     NgwWowModule,
     // RouterModuleModule,
     RouterModule,
+    GtagModule.forRoot({ trackingId: 'G-8RBQ6BLFWE', trackPageviews: true }),
     ActivatedRouteModule
    // NgxTypedJsModule
   ],
